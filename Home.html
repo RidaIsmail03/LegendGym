@@ -1,0 +1,514 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+	<title>Gym Website Template</title>
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+
+	<link rel="stylesheet" type="text/css" href="public/css/Home.css">
+	<style>
+		/* .wow:first-child {
+			visibility: hidden;
+		}
+
+
+		form {
+			display: flex;
+			flex-direction: column;
+			max-width: 500px;
+			margin: 0 auto;
+			padding: 20px;
+			background-color: #000000;
+		}
+
+		input[type="text"],
+		input[type="email"],
+		textarea {
+			margin-bottom: 10px;
+			padding: 10px;
+			background-color: #000000;
+			color: #ffffff;
+			border: none;
+			border-radius: 5px;
+		} */
+
+		  button {
+			padding: 10px;
+			background-color: #ff0000;
+			color: #ffffff;
+			border: none;
+			border-radius: 5px;
+		}
+
+		button:hover {
+			cursor: pointer;
+		}
+
+		.my-button {
+			padding: 10px 20px;
+			background-color: #ff0000;
+			color: #ffffff;
+			border: none;
+			border-radius: 5px;
+			font-size: 16px;
+			cursor: pointer;
+		}
+
+		.my-button:hover {
+			background-color: #cc0000;
+		}
+
+		button a {
+			color: black;
+		}
+	</style>
+
+</head>
+
+<body>
+
+
+	<header>
+		<div class="container">
+			<div class="logo">
+				<a href="">Fitness <span>Club</span></a>
+			</div>
+			<a href="javascript:void(0)" class="ham-burger">
+				<span></span>
+				<span></span>
+			</a>
+			<div class="nav">
+				<ul>
+					<li><a href="#home">Home</a></li>
+					<li><a href="#about">About</a></li>
+					<li><a href="#service">Services</a></li>
+					<li><a href="#classes">Classes</a></li>
+					<li><a href="#schedule">Schedule</a></li>
+					<li><a href="#price">Price</a></li>
+					<li><a href="#contact">Contact</a></li>
+					<li><a href="Product.php">Shop</a></li>
+				</ul>
+			</div>
+		</div>
+	</header>
+
+	<section class="home wow flash" id="home">
+		<div class="container">
+			<h1 class="wow slideInLeft" data-wow-delay="1s">It's <span>gym</span> time. Let's go</h1>
+			<h1 class="wow slideInRight" data-wow-delay="1s">We are ready to <span>fit you</span></h1>
+		</div>
+
+		<a href="#about" class="go-down">
+			<i class="fa fa-angle-down" aria-hidden="true"></i>
+		</a>
+
+
+	</section>
+
+	<section class="about" id="about">
+		<div class="container">
+			<div class="content">
+				<div class="box wow bounceInUp">
+					<div class="inner">
+						<div class="img">
+							<img src="public/images/service1.jpg" alt="about" />
+						</div>
+						<div class="text">
+							<h4>Free Consultation</h4>
+							<p>All consultations are free,You are free to ask in FITNESS CLUB.</p>
+						</div>
+					</div>
+				</div>
+				<div class="box wow bounceInUp" data-wow-delay="0.2s">
+					<div class="inner">
+						<div class="img">
+							<img src="public/images/f-img-1.jpg" alt="about" />
+						</div>
+						<div class="text">
+							<h4>Best Training</h4>
+							<p>Our coaches are professionals,and have a very successful career in this game.</p>
+						</div>
+					</div>
+				</div>
+				<div class="box wow bounceInUp" data-wow-delay="0.4s">
+					<div class="inner">
+						<div class="img">
+							<img src="public/images/f-img-2.jpg" alt="about" />
+						</div>
+						<div class="text">
+							<h4>Build Perfect Body</h4>
+							<p>We all know that a good mental health should be with a good physical health.</p>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</section>
+
+	<section class="service" id="service">
+		<div class="container">
+			<div class="content">
+				<div class="text box wow slideInLeft">
+					<h2>Services</h2>
+					<p>BEFITNESS CLUB contains every type of sports,you can play the game you love under the monitoring
+						of our coaches.Also,BEFITNESS CLUB have a gym product's shop and offers you a bath with a
+						dressing room.</p>
+					<a href="" class="btn">Start Now</a>
+				</div>
+				<div class="accordian box wow slideInRight">
+					<div class="accordian-container active">
+						<div class="head">
+							<h4>Cardiovascular Equipment</h4>
+							<span class="fa fa-angle-down"></span>
+						</div>
+						<div class="body">
+							<p>Cardiovascular diseases (CVDs) are the leading cause of death globally, taking an
+								estimated 17.9 million lives each year.</p>
+						</div>
+					</div>
+					<div class="accordian-container">
+						<div class="head">
+							<h4>Strength Training Equipment</h4>
+							<span class="fa fa-angle-up"></span>
+						</div>
+						<div class="body">
+							<p>BEFITNESS CLUB contains all gym and sports equipments you need to achieve your physical
+								dream.</p>
+						</div>
+					</div>
+					<div class="accordian-container">
+						<div class="head">
+							<h4>Group Fitness Class</h4>
+							<span class="fa fa-angle-up"></span>
+						</div>
+						<div class="body">
+							<p>BEFITNESS CLUB offer you a fitness class with a professinal coach to train you.</p>
+						</div>
+					</div>
+					<div class="accordian-container">
+						<div class="head">
+							<h4>Other Services</h4>
+							<span class="fa fa-angle-up"></span>
+						</div>
+						<div class="body">
+							<p>We have all gym services you need like a dressing room,gym supplements and
+								equipments,bathroom to take a bath...</p>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</section>
+
+	<section class="classes" id="classes">
+		<div class="container">
+			<div class="content">
+				<div class="box img wow slideInLeft">
+					<img height="510px" src="public/images/service4.jpg" alt="classes" />
+				</div>
+				<div class="box text wow slideInRight">
+					<h2>Our Classes:</h2>
+					<p></p>
+					<div class="class-items">
+						<div class="item wow bounceInUp">
+							<div class="item-img">
+								<img src="public/images/price1.jpg" alt="classes" />
+								<div class="price">
+									$99
+								</div>
+							</div>
+							<div class="item-text">
+								<h4>Stretching Training</h4>
+								<p>.</p>
+								<a href="">Get Details</a>
+							</div>
+						</div>
+						<div class="item wow bounceInUp">
+							<div class="item-text">
+								<h4>Stretching Training</h4>
+								<p></p>
+								<a href="">Get Details</a>
+							</div>
+							<div class="item-img">
+								<img src="public/images/service5.jpg" alt="classes" />
+								<div class="price">
+									$99
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</section>
+
+	<section class="start-today">
+		<div class="container">
+			<div class="content">
+				<div class="box text wow slideInLeft">
+					<h2>Start Your Training Today</h2>
+					<p></p>
+					<a href="" class="btn">Start Now</a>
+				</div>
+				<div class="box img wow slideInRight">
+					<img src="public/images/service6.jpg" alt="start today" />
+				</div>
+
+			</div>
+		</div>
+	</section>
+
+	<section class="schedule" id="schedule">
+		<div class="container">
+			<div class="content">
+				<div class="box text wow slideInLeft">
+					<h2>Classes Schedule</h2>
+					<p>
+
+					</p>
+					<img  height="310px"  src="public/images/fit.jpg" alt="schedule" />
+				</div>
+				<div class="box timing wow slideInRight">
+					<table class="table">
+						<tbody>
+							<tr>
+								<td class="day">Monday</td>
+								<td><strong>8:00 AM</strong></td>
+								<td>Chest <br> 9:00 to 10:00 AM</td>
+								<td>Room No:200</td>
+							</tr>
+							<tr>
+								<td class="day">Tuesday</td>
+								<td><strong>8:00 AM</strong></td>
+								<td>Legs <br> 11:00 to 12:00 AM</td>
+								<td>Room No:210</td>
+							</tr>
+							<tr>
+								<td class="day">Wednesday</td>
+								<td><strong>8:00 AM</strong></td>
+								<td>Back <br> 9:00 to 10:00 AM</td>
+								<td>Room No:115</td>
+							</tr>
+							<tr>
+								<td class="day">Thursday</td>
+								<td><strong>8:00 AM</strong></td>
+								<td>Shoulders <br> 9:00 to 10:00 AM</td>
+								<td>Room No:201</td>
+							</tr>
+							<tr>
+								<td class="day">Friday</td>
+								<td><strong>8:00 AM</strong></td>
+								<td>Cardio <br> 12:00 to 1:00 PM</td>
+								<td>Room No:100</td>
+							</tr>
+							<tr>
+								<td class="day">Saturday</td>
+								<td><strong>8:00 AM</strong></td>
+								<td>Bi & tri <br> 8:00 to 9:00 AM</td>
+								<td>Room No:130</td>
+							</tr>
+							<tr>
+								<td class="day">Sunday</td>
+								<td><strong>Closed</strong></td>
+								<td>Rest <br /> </td>
+								<td>--</td>
+							</tr>
+						</tbody>
+					</table>
+				</div>
+			</div>
+		</div>
+	</section>
+
+	<section class="gallery" id="gallery">
+		<h2>Workout Gallery</h2>
+		<div class="content">
+			<div class="box wow slideInLeft">
+				<img src="public/images/6d.jpg" alt="gallery" />
+			</div>
+			<div class="box wow slideInRight">
+				<img src="public/images/3-2-1.jpg" alt="gallery" />
+			</div>
+			<div class="box wow slideInLeft">
+				<img src="public/images/gallery3.jpg" alt="gallery" />
+			</div>
+			<div class="box wow slideInRight">
+				<img src="public/images/full.jpg" alt="gallery" />
+			</div>
+		</div>
+	</section>
+
+	<section class="price-package" id="price">
+		<div class="container">
+			<h2>Choose Your Package</h2>
+			<p class="title-p">Please choose the offer that achieve your goal and is under your payments control </p>
+			<div class="content">
+				<div class="box wow bounceInUp">
+					<div class="inner">
+						<div class="price-tag">
+							$59/Month
+						</div>
+						<div class="img">
+							<img src="public/images/price1.jpg" alt="price" />
+						</div>
+						<div class="text">
+							<h3>Weightlifting Training</h3>
+							<p>Limited WiFi</p>
+							<p>Month to Month</p>
+							<p>No Time Restrictions</p>
+							<p>Gym and Cardio</p>
+
+							<a href="" class="btn">Join Now</a>
+						</div>
+					</div>
+				</div>
+				<div class="box wow bounceInUp" data-wow-delay="0.2s">
+					<div class="inner">
+						<div class="price-tag">
+							$69/Month
+						</div>
+						<div class="img">
+							<img src="public/images/price2.jpg" alt="price" />
+						</div>
+						<div class="text">
+							<h3>Fitness Training</h3>
+							<p>Get Free WiFi</p>
+							<p>Month to Month</p>
+							<p>Gym and Cardio</p>
+							<p>Service Locker Rooms</p>
+							<a href="" class="btn">Join Now</a>
+						</div>
+					</div>
+				</div>
+				<div class="box wow bounceInUp" data-wow-delay="0.4s">
+					<div class="inner">
+						<div class="price-tag">
+							$99/Month
+						</div>
+						<div class="img">
+							<img src="public/images/Fitness.jpg" alt="price" />
+						</div>
+						<div class="text">
+							<h3>Body Building Training</h3>
+
+							<p>Month to Month</p>
+							<p>No Time Restrictions</p>
+							<p>Gym and Cardio</p>
+							<p>Service Locker Rooms</p>
+							<a href="" class="btn">Join Now</a>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</section>
+
+	<section class="contact" id="contact">
+		<div class="container">
+			<div class="content">
+				<div class="box form wow slideInLeft">
+
+					<form id="registration-form" action="#" method="post">
+						<input type="text" id="name" name="name" placeholder="Name" required>
+						<input type="email" id="email" name="email" placeholder="Email" required>
+						<textarea id="message" name="message" placeholder="Message" required></textarea>
+						<button type="submit" id="send-btn">Send Message</button>
+					</form>
+
+				</div>
+
+
+				<div class="box text wow slideInRight">
+					<h2>Get Connected with Gym</h2>
+					<p class="title-p">Follow us on our social media accounts and feel free to ask us any question at
+						any time.</p>
+					<div class="info">
+						<ul>
+							<li><span class="fa fa-map-marker"></span> Beirut, Lebanon</li>
+							<li><span class="fa fa-phone"></span> 81 693 027</li>
+							<li><span class="fa fa-envelope"></span> Legend@gmail.com</li>
+						</ul>
+					</div>
+					<div class="social">
+						<a href=""><span class="fa fa-facebook"></span></a>
+						<a href=""><span class="fa fa-linkedin"></span></a>
+						<a href=""><span class="fa fa-skype"></span></a>
+						<a href=""><span class="fa fa-youtube-play"></span></a>
+					</div>
+					<br>
+					<button class="my-button"><a href="Quiz.html">Click for Quiz</a></button>
+					<button class="my-button"><a href="index.html">Home</a></button>
+					<div class="copy">
+						PowerBy &copy; Ali Msheik & Rida Ismail
+					</div>
+				</div>
+			</div>
+		</div>
+	</section>
+
+
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+	<script>
+		$(document).ready(function () {
+
+			$(".ham-burger, .nav ul li a").click(function () {
+
+				$(".nav").toggleClass("open")
+
+				$(".ham-burger").toggleClass("active");
+			})
+			$(".accordian-container").click(function () {
+				$(".accordian-container").children(".body").slideUp();
+				$(".accordian-container").removeClass("active")
+				$(".accordian-container").children(".head").children("span").removeClass("fa-angle-down").addClass("fa-angle-up")
+				$(this).children(".body").slideDown();
+				$(this).addClass("active")
+				$(this).children(".head").children("span").removeClass("fa-angle-up").addClass("fa-angle-down")
+			})
+
+			$(".nav ul li a, .go-down").click(function (event) {
+				if (this.hash !== "") {
+
+					event.preventDefault();
+
+					var hash = this.hash;
+
+					$('html,body').animate({
+						scrollTop: $(hash).offset().top
+					}, 800, function () {
+						window.location.hash = hash;
+					});
+
+
+					$(".nav ul li a").removeClass("active")
+					$(this).addClass("active")
+				}
+			})
+		})
+
+		document.getElementById("registration-form").addEventListener("submit", function (event) {
+			event.preventDefault();
+
+
+			alert("The message was sent successfully!");
+
+
+			document.getElementById("name").value = "";
+			document.getElementById("email").value = "";
+			document.getElementById("message").value = "";
+		});
+
+	</script>
+	<script src="public/js/Home.min.js"></script>
+	<script>
+		wow = new WOW(
+			{
+				animateClass: 'animated',
+				offset: 0,
+			}
+		);
+		wow.init();
+	</script>
+</body>
+
+</html>

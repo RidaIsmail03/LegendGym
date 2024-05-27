@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>GYM To Train Your Fitness and Mind</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css"
+        integrity="sha512-Fo3rlrZj/k7ujTnHg4CGR2D7kSs0v4LLanw2qksYuRlEzO+tcaEPQogQ0KaoGN26/zrn20ImR1DfuLWnOo7aBA=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" type="text/css" href="public/css/index.css">
+    <style>
+        button a {
+            color: black;
+        }
+    </style>
+</head>
+
+<body>
+    <header>
+        <nav>
+            <div class="logo"><i class="fas fa-dumbbell"></i><span>Fitness</span>Club</div>
+
+        </nav>
+        <div class="header-container">
+            <h1><span class="border-bottom">No Pain</span><span class="text-primary"> No Gain</span></h1>
+            <p>The gym is designed to give everyone the tools they need to reach their dream fitness goals.
+                Whether it’s to tone up or build strength, anyone is welcome to train in the gym.</p><br>
+
+            <h2 class="login">log in : </h2><br>
+
+            <label class="login" for="username">UserName <input type="text" id="username" required></label><br>
+            <label class="login" for="pass">password <input type="password" id="pass" required></label><br>
+
+            <input type="checkbox" id="togglePassword" onclick="myFunction()">
+
+            <center><button class="btn btn-primary"><i class="fas fa-phone-square-alt"><a href="Home.html"><br></i>Get
+                    Started</a></button></center>
+
+        </div>
+    </header>
+
+
+
+    <script>
+        function myFunction() {
+            var x = document.getElementById("pass");
+            if (x.type === "password") {
+                x.type = "text";
+            } else {
+                x.type = "password";
+            }
+        }
+
+    </script>
+</body>
+
+</html>
